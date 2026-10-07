@@ -1,0 +1,100 @@
+html {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;    
+}
+
+#header {
+    display: flex;
+    border: 2px solid #000;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.header_text {
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+section {
+    border: 2px solid #000;
+    border-radius: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+.lesson_example {
+    border: 2px solid #000;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 10px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+aside {
+    border: 2px solid #000;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 10px;
+    color: #333;
+    background-color: #f9f9f9;
+    align-self: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+#layout {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+#content {
+    display: block;
+    margin: 20px;
+}
+
+#sidebar {
+    position: sticky;
+    top: 10px;
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    font-size: small;
+}
+
+a:hover {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    transform: scale(1.50);
+    transition: transform 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+article {
+    border: 2px solid #000;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 10px;
+    color: #333;
+    background-color: #f9f9f9;
+}
